@@ -1,0 +1,262 @@
+*{
+    text-decoration: none;
+}    
+body{
+    align-items: center;
+}
+nav ul{
+    float: right;
+}
+
+label.logo{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: baskerville;
+    padding: 0 50px;
+    color: #144D40;
+}
+.mobView{
+  display: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+nav ul li a{
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #144D40;
+}a:hover{
+    background-color: grey;
+    transition: 5s;
+}
+
+header{
+    background-image: url("img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 28vh;
+    margin-top: 30px;
+    padding-top: 15px;
+    
+}
+ header nav {
+display: none;
+} 
+button{ 
+        border: none;
+        background: #144D40; 
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        border-radius: 5px; 
+        width: 85px;
+        height: 6vh;
+}
+ .home{
+    padding: 60px 12%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.home_btn, .btn2{
+  margin-top: 50px;
+  margin-left: 90px;
+}
+.home_btn button a{
+  color: aliceblue;
+}
+.home_txt, #home_txt1{
+ font-size: 24px;
+ text-align: justify;
+ margin-top: 70px; 
+ font-family: "Times New Roman", Times, serif;
+ font-style: italic;
+}
+.btn{
+    margin-top: 50px;
+    padding-left: 100px;
+}
+.btn a, .btn2 a{
+    color: #fff;   
+}
+.btn2 button{
+  width: 120px;
+}
+.dish{
+    padding: 20px 8%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    width: 90%;
+    align-items: center;
+    border-radius: 15px;
+}
+#txt{
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 16px;
+}
+.book_img{
+  margin-left: 20px;
+}
+
+.footer-icons ul li {
+    display: inline-block;
+  }
+  
+  .footer-icons ul li a {
+    border: 1px solid aliceblue;
+    display: block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 38px;
+    margin-right: 5px;
+    text-align: center;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .footer-icons {
+    text-align: center;
+  }
+  
+  .popular-tag ul li {
+    display: inline-block;
+  }
+  
+  .footer-content {
+    display: block;
+    overflow: hidden;
+  }
+  
+  .copyright_text-center{
+    text-align: center;
+    color: aliceblue;
+  }
+  
+  .footer-area-bottom {
+    background: #144D40 none repeat scroll 0 0;
+    padding: 15px 0;
+  }
+  
+  .copyright> p {
+    margin-bottom: 0;
+    color: aliceblue;
+  }
+  strong a{
+    color: #fff;
+   
+  }
+  
+  .credits {
+    padding-top: 5px;
+    text-align: center;
+    color: aliceblue;
+  }
+  
+  .credits a {
+    color: aliceblue;
+  }
+  #ham_icon{
+    display: none;
+  }
+
+/* Media query for phone devices */
+@media (max-width: 600px) {
+    /* #ham_icon{
+        display: block;
+        float: right;
+        cursor: pointer;
+        padding-right: 40px;
+    } */
+    nav label.logo{
+      margin-left: 135px;
+      font-size: 24px;
+    }
+    #b{
+      display: none;
+    }
+    .navbar ul li a, .navbar ul li button{
+      display: none;
+    }
+    .mobView{
+      display: inline;
+    }
+   #link{
+    margin-top: 100px;
+    margin-left: -75px;
+    margin-right: 20px;
+    font-size: 12px;
+    font-weight: 700;
+   }
+   header{
+    background-image: url(img/bgimg.jpeg);
+    background-position: center;
+    background-size: cover;
+   }
+   .home{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+   .home_txt{
+    background-image: url(img/bg_img.webp);
+    width: 110%;
+    margin-top: -50px;
+    height: 55vh;
+    margin-left: -15px;
+   }
+   .home_txt1{
+    background-image: url(img/dining.jpg);
+    width: 110%;
+    margin-top: -50px;
+    height: 55vh;
+    margin-left: -15px;
+   }
+   .home_img, .book_img{
+    display: none;
+   }
+   #home_txt{
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 65px;
+    margin-top: 90px;
+    text-align: justify;
+   }
+   #home_txt1{
+    color:rgb(4, 4, 4);
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 95px;
+    text-align: justify;
+    font-style: italic;
+    font-weight: 600;
+   }
+   .home_btn{
+    margin-top: 185px;
+    margin-left: 155px;
+   }
+   .btn2{
+    margin-top: 190px;
+    margin-left: 155px;
+    
+   }
+   .home_btn button a, .btn2 button a{
+    color: aliceblue;
+    font-size: 16px;
+   }
+   .dish{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+   .dessert, .mc, .app{
+    margin:auto;
+   }
+   #txt{
+    font-size: 16x;
+    margin-top: 5px;
+    padding-bottom: 15px;
+   }
+    }
+  
