@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<prefs>
+	<property key="ARSGuid">cb1f82b8-7c63-44eb-8212-4b321f86897b</property>
+	<property key="appsPanelVisibilityAnalytics">enabled</property>
+	<property key="showTour.PHSP">1</property>
+	<property key="showTour">1</property>
+	<property key="showTour.ILST">1</property>
+	<property key="CCD_MARKETPLACE_NEW_STATUS_LIGHT">OFF</property>
+	<property key="showTour.SPRK">1</property>
+	<property key="PushDeviceID">3d40f291-2762-4f20-9c4c-c4c38bc58b5a</property>
+	<property key="ccd.container.firstlaunch">true</property>
+</prefs>
