@@ -1,0 +1,160 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #f8f8f8;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Main content styles */
+.main {
+    padding: 20px;
+}
+
+h3{
+    padding: 1.2rem 2rem;
+    background: color(prophoto-rgb 0.48 0.48 0.48 / 0.29);
+    /* box-shadow: 1px 1px; */
+    text-shadow: 1px 0px 2px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-top: 20px;
+}
+
+
+.product-card {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+    height: 15rem;
+}
+
+.product-card h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.product-card p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.stars {
+    color: #FFD700;
+    font-size: 18px;
+}
+
+.star {
+    margin-right: 5px;
+}
+
+.rating-text {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #999;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+}
+
+.banner img {
+    width: 100%;
+    max-height: 90vh;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.banner-content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.banner-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.order-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFD700;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.order-button:hover {
+    background-color: #FFC200;
+}
+
+
+@media screen and (max-width: 768px) {
+    .product-card {
+        width: calc(50% - 40px);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .product-card {
+        width: calc(100% - 40px);
+    }
+}
